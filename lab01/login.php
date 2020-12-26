@@ -11,6 +11,14 @@
             font-size: 1.5em;
             padding: 24px;
         }
+        .success {
+            color: green;
+            background-color: #4abe4a;
+            border-radius: 8px;
+            text-align: center;
+            width: 50%;
+            margin: 20px auto;
+        }
     </style>
 </head>
 <body>
@@ -44,7 +52,7 @@
     }
 
     if ($email === 'admin@gmail.com' && $pass === '123456') {
-        die('Xin chúc mừng! Bạn đã hoàn thành bài tập');
+        die('<div class="success">Xin chúc mừng! Bạn đã hoàn thành bài tập</div>');
     }else {
         die('Email hoặc mật khẩu không chính xác');
     }
