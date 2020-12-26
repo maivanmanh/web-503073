@@ -10,10 +10,12 @@
         body {
             font-size: 1.5em;
             padding: 24px;
+            font-family: "Arial", monospace;
         }
         .success {
-            color: green;
-            background-color: #4abe4a;
+            color: #155724;
+            padding: 16px;
+            background-color: #D4EDDA;
             border-radius: 8px;
             text-align: center;
             width: 50%;
