@@ -19,7 +19,7 @@
         if (is_array($_POST[$key])) {
             print_r($_POST[$key]);
         }else {
-            echo $_GET[$key];
+            echo $_POST[$key];
         }
         echo "</li>";
     }
